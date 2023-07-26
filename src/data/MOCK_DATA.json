@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "nombre": "Producto 1",
+        "descripcion": "Descripcion producto 1",
+        "precio": 1500,
+        "img": "https://dummyimage.com/200x200/000/fff",
+        "categoria": "3 a 5 años"
+    },
+    {
+        "id": 2,
+        "nombre": "Producto 2",
+        "descripcion": "Descripcion producto 2",
+        "precio": 1800,
+        "img": "https://dummyimage.com/200x200/000/fff",
+        "categoria": "3 a 5 años"
+    },
+    {
+        "id": 3,
+        "nombre": "Producto 3",
+        "descripcion": "Descripcion producto 3",
+        "precio": 1900,
+        "img": "https://dummyimage.com/200x200/000/fff",
+        "categoria": "6 a 8 años"
+    },
+    {
+        "id": 4,
+        "nombre": "Producto 4",
+        "descripcion": "Descripcion producto 4",
+        "precio": 1900,
+        "img": "https://dummyimage.com/200x200/000/fff",
+        "categoria": "6 a 8 años"
+    },
+    {
+        "id": 5,
+        "nombre": "Producto 5",
+        "descripcion": "Descripcion producto 5",
+        "precio": 1950,
+        "img": "https://dummyimage.com/200x200/000/fff",
+        "categoria": "8 a 12 años"
+    },
+    {
+        "id": 6,
+        "nombre": "Producto 6",
+        "descripcion": "Descripcion producto 6",
+        "precio": 1300,
+        "img": "https://dummyimage.com/200x200/000/fff",
+        "categoria": "8 a 12 años"
+    },
+    {
+        "id": 7,
+        "nombre": "Producto 7",
+        "descripcion": "Descripcion producto 7",
+        "precio": 1220,
+        "img": "https://dummyimage.com/200x200/000/fff",
+        "categoria": "+ 12 años"
+    },
+    {
+        "id": 8,
+        "nombre": "Producto 8",
+        "descripcion": "Descripcion producto 8",
+        "precio": 3000,
+        "img": "https://dummyimage.com/200x200/000/fff",
+        "categoria": "+ 12 años"
+    }
+]
