@@ -5,8 +5,7 @@ export const ItemList = ({productos}) => {
 
     return (
         <div className="container">
-            <h2>Catálogo de productos</h2>
-            <hr />
+            <h2 className="text-2xl font-semibold mb-4">Productos</h2>
             <div className="row">
                 {
                     productos.map((prod) => (

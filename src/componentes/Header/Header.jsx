@@ -1,6 +1,7 @@
 import "../../styles/componentes/Header/Header.scss";
 import { Menu } from "../Menu/Menu";
 
+
 import React, { useState } from 'react';
 
 export const Header = () => {
@@ -33,7 +34,10 @@ export const Header = () => {
             ></path>
           </svg>
         </button>
-        < Menu />
+        
+        <nav className={`lg:flex ${isMenuOpen ? 'flex' : 'hidden'}`}>
+          <Menu />
+        </nav>
       </div>
     </header>
   );
