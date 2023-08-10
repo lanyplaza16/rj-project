@@ -12,6 +12,7 @@ import { ItemDetailContainer } from './componentes/ItemDetailContainer/ItemDetai
 import { DarkModeProvider } from "./context/DarkModeContext";
 import { CartProvider } from './context/CardContext';
 import { CartView } from './componentes/CartView/CartView';
+import { Checkout } from './componentes/Checkout/Checkout';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
             <Route path="/productos/:categoryId" element={ <ItemListContainer />}/>
             <Route path="/detail/:itemId" element={ <ItemDetailContainer />}/>
             <Route path="/cart" element={ <CartView />}/>
+            <Route path="/checkout" element={ <Checkout />}/>
             <Route path="/contacto" element={ <Contacto />}/>
             <Route path="*" element={ <Error404 /> }/>
           </Routes>
