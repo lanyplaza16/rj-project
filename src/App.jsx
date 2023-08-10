@@ -9,7 +9,6 @@ import { Footer } from './componentes/Footer/Footer';
 import { Error404 } from './componentes/Error404/Error404';
 import { Contacto } from './componentes/Contacto/Contacto';
 import { ItemDetailContainer } from './componentes/ItemDetailContainer/ItemDetailContainer';
-import { DarkModeProvider } from "./context/DarkModeContext";
 import { CartProvider } from './context/CardContext';
 import { CartView } from './componentes/CartView/CartView';
 import { Checkout } from './componentes/Checkout/Checkout';
@@ -17,11 +16,10 @@ import { Checkout } from './componentes/Checkout/Checkout';
 function App() {
 
   return (
-    <DarkModeProvider>
-      <CartProvider>
-        <BrowserRouter>
-          <Header />
-
+    <CartProvider>
+      <BrowserRouter>
+        <Header />
+        
           <Routes>
             <Route path="/" element={ <ItemListContainer />}/>
             <Route path="/productos/:categoryId" element={ <ItemListContainer />}/>
@@ -32,10 +30,9 @@ function App() {
             <Route path="*" element={ <Error404 /> }/>
           </Routes>
 
-          <Footer />
-        </BrowserRouter>
-      </CartProvider>
-    </DarkModeProvider>
+        <Footer />
+      </BrowserRouter>
+    </CartProvider>
   )
 }
 export default App

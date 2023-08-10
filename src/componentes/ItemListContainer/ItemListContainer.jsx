@@ -5,7 +5,6 @@ import { useProductos  } from "../../hooks/useProductos";
 
 export const ItemListContainer = () => {
     const { productos, loading } = useProductos()
-    console.log(loading,productos)
 
     return (
         <div className="bg-gray-100 p-8 rounded-md shadow-md">

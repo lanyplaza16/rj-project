@@ -6,8 +6,7 @@ import { db } from "../firebase/config"
 export const useProductos = () => {
     const [productos, setProductos] = useState([])
     const [loading, setLoading] = useState([true])
-    console.log(productos)
-
+    
     const { categoryId } = useParams()
     
     useEffect (() => {
