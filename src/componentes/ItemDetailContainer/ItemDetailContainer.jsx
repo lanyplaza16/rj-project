@@ -8,9 +8,6 @@ export const ItemDetailContainer = () => {
     const [loading, setLoading] = useState(true)
 
     const { itemId } = useParams()
-
-    console.log(itemId)
-
     useEffect(() => {
         setLoading(true)
 
@@ -20,6 +17,8 @@ export const ItemDetailContainer = () => {
             })
             .finally(() => setLoading(false))
     }, [])
+
+    
 
     return (
         <div className="bg-gray-100 p-8 rounded-md shadow-md">

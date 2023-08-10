@@ -1,10 +1,10 @@
 import "../../styles/componentes/Header/Header.scss";
 import { Menu } from "../Menu/Menu";
-
-
-import React, { useState } from 'react';
+import React, { useState } from 'react'
+import { CartWidget } from "../CartWidget/CartWidget";
 
 export const Header = () => {
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -37,6 +37,7 @@ export const Header = () => {
         
         <nav className={`lg:flex ${isMenuOpen ? 'flex' : 'hidden'}`}>
           <Menu />
+          <CartWidget />
         </nav>
       </div>
     </header>

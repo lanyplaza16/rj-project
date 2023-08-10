@@ -12,7 +12,7 @@ export const ItemListContainer = () => {
             {
                 loading
                     ? <h2 className="text-2xl font-semibold mb-4">Cargando...</h2>
-                    : <ItemList productos={productos}/>
+                    :<ItemList productos={productos}/>
             }
         </div>
     )
