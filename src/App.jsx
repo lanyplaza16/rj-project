@@ -9,7 +9,7 @@ import { Footer } from './componentes/Footer/Footer';
 import { Error404 } from './componentes/Error404/Error404';
 import { Contacto } from './componentes/Contacto/Contacto';
 import { ItemDetailContainer } from './componentes/ItemDetailContainer/ItemDetailContainer';
-import { CartProvider } from './context/CardContext';
+import { CartProvider } from './context/CartContext';
 import { CartView } from './componentes/CartView/CartView';
 import { Checkout } from './componentes/Checkout/Checkout';
 
